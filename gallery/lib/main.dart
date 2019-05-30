@@ -10,7 +10,7 @@ void main () {
         },
       ),
       appBar: AppBar(
-        title: Text("Lets See Some Images !"),
+        title: Text("Lets See Images !"),
       ),
     ),
   );

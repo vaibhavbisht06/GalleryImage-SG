@@ -19,9 +19,7 @@ class _appState extends State<app> {
           title:Text("Images") ,),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
-          onPressed: (){
-            fetchimage();
-          },
+          onPressed: fetchimage,
         ),
       ),
     );

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
 
 class app extends StatefulWidget {
   @override
@@ -14,14 +15,21 @@ class _appState extends State<app> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Text("Image Number $counter"),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+
+          ],
+        ),
         appBar: AppBar(
           title:Text("Images") ,),
         floatingActionButton: FloatingActionButton(
-          child: Icon(Icons.add),
+          child: Icon(Icons.access_alarm),
           onPressed: fetchimage,
         ),
+
       ),
+
     );
   }
 }
